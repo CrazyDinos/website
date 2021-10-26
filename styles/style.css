@@ -1,0 +1,27 @@
+@font-face {
+    font-family: VPPixel;
+    src: url(../fonts/VPPixel.otf);
+}
+
+@font-face {
+    font-family: LLPixel;
+    src: url(../fonts/LLPIXEL.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: VPPixel;
+    color: #403d39;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}

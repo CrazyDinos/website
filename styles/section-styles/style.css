@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    /* min-height: 100vh; */
+}
+
+section div {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100vw;
+    max-width: 1920px;
+}
+
+section h1 {
+    font-family: LLPixel;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 25px;
+}

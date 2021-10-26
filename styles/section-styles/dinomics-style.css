@@ -1,0 +1,23 @@
+#dinomics {
+    background: #FDFFB6;
+}
+
+#dinomics div div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#dinomics div div div {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+#dinomics div div div img {
+    align-self: center;
+    width: 80%;
+    height: auto;
+}

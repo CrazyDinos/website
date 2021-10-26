@@ -1,0 +1,58 @@
+#home {
+    background: #fdffb6;
+    padding-top: 0px;
+}
+
+#home div {
+    padding-top: 10px;
+}
+
+#home div div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0px;
+}
+
+#home div h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+#home div h3 {
+    font-size: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 0px;
+}
+
+#home div .main-content {
+    padding-top: 40px;
+    align-items: center;
+}
+
+#home div div button {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: VPPixel;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 5px solid #403d39;
+}
+
+#home div div button:hover {
+    cursor: not-allowed;
+}
+
+#home div div img {
+    align-self: center;
+    width: 60%;
+    height: auto;
+    border: 10px solid #403d39;
+}

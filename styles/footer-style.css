@@ -1,0 +1,39 @@
+#footer {
+    display: flex;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#footer div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer div ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+}
+
+#footer div ul li {
+    padding: 1rem;
+}
+
+#footer div ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+#footer div ul li a:hover {
+    color: skyblue;
+}
+
+#footer p {
+    padding: 1rem;
+    color: #f4f4f4;
+}

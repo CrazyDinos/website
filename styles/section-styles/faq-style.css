@@ -1,0 +1,22 @@
+#faq {
+    background: #CCFBDB;
+}
+
+#faq div div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#faq div div h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#faq div div p a {
+    color: #403d39;
+}
+
+#faq div div p a:hover {
+    color: skyblue;
+}

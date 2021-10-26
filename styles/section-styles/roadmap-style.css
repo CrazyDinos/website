@@ -1,0 +1,14 @@
+#roadmap {
+    background: #FDFFB6;
+}
+
+#roadmap div div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#roadmap div div h3 {
+    font-size: 30px;
+    font-weight: bold;
+}

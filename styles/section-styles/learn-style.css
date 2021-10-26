@@ -1,0 +1,24 @@
+#learn {
+    background: #CCFBDB;
+}
+
+#learn div div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#learn div div div {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+#learn div div div img {
+    align-self: center;
+    width: 60%;
+    height: auto;
+    border: 10px solid #403d39;
+}
