@@ -12,3 +12,13 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 520px) {
+    #roadmap div h1 {
+        padding-bottom: 10px;
+    }
+
+    #roadmap div div h3 {
+        font-size: 22px;
+    }
+}

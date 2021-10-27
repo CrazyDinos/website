@@ -56,3 +56,14 @@
     height: auto;
     border: 8px solid #403d39;
 }
+
+@media only screen and (max-width: 520px) {
+    #home div div h1 {
+        text-align: center;
+    }
+
+    #home div div img {
+        width: 80%;
+        height: auto;
+    }
+}

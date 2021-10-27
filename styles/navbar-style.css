@@ -10,9 +10,20 @@
 .navbar div {
     padding-left: 150px;
     padding-right: 150px;
-    width:100%;
+    width: 100%;
     max-width: 1920px;
     display: flex;
+}
+
+.navbar div h3 {
+    font-weight: normal;
+    font-size: 25px;
+    color: #f4f4f4;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    display: none;
 }
 
 .navbar div ul {
@@ -22,12 +33,10 @@
 }
 
 .navbar div .links {
-    /* padding-left: 150px; */
     flex-direction: row;
 }
 
 .navbar div .socials {
-    /* padding-right: 150px; */
     flex-direction: row-reverse;
 }
 
@@ -60,4 +69,46 @@
 
 .navbar div ul li a:hover {
     color: skyblue;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar div {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .navbar div {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar div .socials {
+        display: none;
+    }
+
+    .navbar div .links {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .navbar div {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .navbar div .links {
+        display: none;
+    }
+
+    .navbar div h3 {
+        display: block;
+    }
 }

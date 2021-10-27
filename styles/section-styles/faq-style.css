@@ -1,5 +1,5 @@
 #faq {
-    background: #CCFBDB;
+    background: #ccfbdb;
 }
 
 #faq div div {
@@ -19,4 +19,14 @@
 
 #faq div div p a:hover {
     color: skyblue;
+}
+
+@media only screen and (max-width: 520px) {
+    #faq div h1 {
+        padding-bottom: 10px;
+    }
+
+    #faq div div h3 {
+        font-size: 22px;
+    }
 }

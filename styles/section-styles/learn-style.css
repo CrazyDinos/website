@@ -1,5 +1,5 @@
 #learn {
-    background: #CCFBDB;
+    background: #ccfbdb;
 }
 
 #learn div div {
@@ -20,5 +20,16 @@
     align-self: center;
     width: 60%;
     height: auto;
-    border: 8px solid #403d39;
+    border: 10px solid #403d39;
+}
+
+@media only screen and (max-width: 1200px) {
+    #learn div div {
+        flex-direction: column;
+    }
+
+    #learn div div div {
+        width: 100%;
+        padding-top: 20px;
+    }
 }
